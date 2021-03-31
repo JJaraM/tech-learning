@@ -17,5 +17,22 @@
 </p>
 
 
-# Getting Started
+# Prerequisites:
+* Have installed gradle or use an IDE that run gradle
+* 5 minutes
+
+# Updating the gradle.build
+
+In your gradle.build file you need to add the following instruction, in the task that you want, for this case we are going to use the bootRun
+```gradle
+bootRun {
+    systemProperty 'spring.profiles.active', 'jjara'
+}
+```
+You can visit the repository in this [link](https://github.com/JJaraM/tech-learning/tree/prod/gradle-system-variable), or you can run the following commands on your computer.
+```gitclone
+git clone https://github.com/JJaraM/tech-learning.git
+
+git checkout gradle-system-variable
+```
 
