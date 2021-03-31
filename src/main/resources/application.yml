@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  application: configuration-server-filesystem
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          searchLocations:
+          - /Users/jonathanjaramorales/IdeaProjects/spring-cloud/configuration-server/configuration-server-filesystem/server-files
