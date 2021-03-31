@@ -31,3 +31,9 @@ In the following section you will see all spring tutorials
 #### Configuration Server
 * [Configuration Server FileSystem](https://github.com/JJaraM/tech-learning/tree/prod/configuration-server-filesystem): Application that uses 
 the configuration server to read the files from the file system.
+
+# Gradle
+
+### Gradle Environment Variables
+* [Environment Variables](https://github.com/JJaraM/tech-learning/tree/prod/gradle-system-variable): Spring Boot application that shows how 
+to add environment variables in the bootRun task
