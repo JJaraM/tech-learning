@@ -19,7 +19,7 @@ eureka:
     instance-info-replication-interval-seconds: 10
     registry-fetch-interval-seconds: 10
     service-url:
-      defaultZone: h${eureka-client-service-url:https://jjara-eureka-basic.herokuapp.com/eureka}
+      defaultZone: ${eureka-client-service-url:https://jjara-eureka-basic.herokuapp.com/eureka}
 
 management:
   endpoints:
