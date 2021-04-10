@@ -1,16 +1,16 @@
 server:
-  port: 8762
+  port: ${server-port:8762}
 
 spring:
   application:
-    name: zuul-server
+    name: gateway-eureka-lb
   cloud:
     discovery:
       enabled: true
     gateway:
       routes:
-        - id: webflux-eureka-clients
-          uri: lb://webflux-eureka-clients
+        - id: webflux-eureka-client
+          uri: lb://webflux-eureka-client
           predicates:
             - Path=/**
 
