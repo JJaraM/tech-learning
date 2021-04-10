@@ -8,10 +8,11 @@ spring:
     discovery:
       enabled: true
     gateway:
-      discovery:
-        locator:
-          enable: true
-          lower-case-service-id: true
+      routes:
+        - id: webflux-eureka-clients
+          uri: lb://webflux-eureka-clients
+          predicates:
+            - Path=/**
 
 eureka:
   client:
