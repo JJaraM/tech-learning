@@ -9,5 +9,11 @@ eureka:
     #preferIpAddress: true
     hostname: ${eureka-instance-hostname:localhost}
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        
 instance:
   id: ${instance-id:local}
