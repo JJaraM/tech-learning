@@ -9,13 +9,13 @@ http:
   protocol: ${http-protocol:https}
 
 eureka:
-  hostname: ${eureka-instance-hostname:localhost}:${server.port}
+  hostname: ${eureka-instance-hostname:localhost:${server.port}}
   client:
     serviceUrl:
       defaultZone: ${eureka-client-service-url:https://jjara-eureka-basic.herokuapp.com/eureka}
   instance:
-    statusPageUrl: ${http.protocol}://${eureka.hostname}/info
-    healthCheckUrl: ${http.protocol}://${eureka.hostname}/health
+    statusPageUrl: ${http.protocol}://${eureka.hostname}/actuator/info
+    healthCheckUrl: ${http.protocol}://${eureka.hostname}/actuator/health
     homePageUrl: ${http.protocol}://${eureka.hostname}/
 
 management:
