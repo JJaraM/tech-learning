@@ -18,18 +18,17 @@
     </p>
 </p>
 
-
 # Spring
 In the following section you will see all spring tutorials
 
 ### Spring Webflux Routing Basic
-* [Webflux Basic Application with Routing Function](https://github.com/JJaraM/tech-learning/tree/spring/webflux/webflux-basic-ws)
+[Webflux Basic Application with Routing Function](https://github.com/JJaraM/tech-learning/tree/spring/webflux/webflux-basic-ws)
 
 #### Configuration Server File System
-[Configuration Server FileSystem](https://github.com/JJaraM/tech-learning/tree/prod/configuration-server-filesystem)
+[Configuration Server Native FileSystem](https://github.com/JJaraM/tech-learning/tree/spring/configuration-server/configuration-server-filesystem)
 
-##### Zuul Basic Routing Path
-[Documentation](https://github.com/JJaraM/tech-learning/tree/spring/cloud/gateway/zuul/zuul-dynamic-routing)
+# Gateway
+[Zuul Basic Routing](https://github.com/JJaraM/tech-learning/tree/spring/cloud/gateway/zuul/zuul-dynamic-routing)
 
 # Gradle
-* [Gradle Environment Variables](https://github.com/JJaraM/tech-learning/tree/prod/gradle-system-variable)
+[Gradle Environment Variables](https://github.com/JJaraM/tech-learning/tree/prod/gradle-system-variable)
