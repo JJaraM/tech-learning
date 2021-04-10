@@ -1,5 +1,3 @@
-# 
-
 <p align="center">
     <a href="https://jonathanjaramorales.herokuapp.com">
         <img src="https://github.com/JJaraM/blog-microservice-ui/blob/master/src/main/resources/public/logo-210x.png" height="210">
@@ -18,17 +16,18 @@
     </p>
 </p>
 
-# Spring
-In the following section you will see all spring tutorials
+# Eureka Server - Basic
+The following is a basic implementation of eureka server using spring cloud.
 
-# Webflux Routing Basic
-[Webflux Basic Application with Routing Function](https://github.com/JJaraM/tech-learning/tree/spring/webflux/webflux-basic-ws)
+# Getting Started
+* Clone the following repository
+* Switch to the branch spring/cloud/eureka/eureka-basic.
+* Start the application running the main method on `com.jjara.eureka.Application`
+* Then go to http://localhost:8761/
 
-# Configuration Server File System
-[Configuration Server Native FileSystem](https://github.com/JJaraM/tech-learning/tree/spring/configuration-server/configuration-server-filesystem)
+# Live demo
+Please go to the following [link](https://jjara-eureka-basic.herokuapp.com/), on this 
+live demo you are going to see some entries on the application, these applications 
+are using now the client.
 
-# Gateway
-[Zuul Basic Routing](https://github.com/JJaraM/tech-learning/tree/spring/cloud/gateway/zuul/zuul-dynamic-routing)
-
-# Gradle
-[Gradle Environment Variables](https://github.com/JJaraM/tech-learning/tree/prod/gradle-system-variable)
+# Result
