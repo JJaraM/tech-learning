@@ -37,5 +37,5 @@ This approach has some advantages:
 * Gives the possibility to run the load balance logic into this service.
 * Gives the possibility to stablish the security part in one single place.
 
-### [Gateway + Eureka](https://github.com/JJaraM/tech-learning/tree/spring/cloud/gateway/gatewat-eureka-server)
+### [Gateway + Eureka](https://github.com/JJaraM/tech-learning/tree/spring/cloud/gateway/gateway-eureka-server)
 The following implementation use the spring cloud gateway with a eureka integration to get the cluster members from eureka.
