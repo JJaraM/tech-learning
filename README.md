@@ -27,5 +27,15 @@
 The following repository shows multiple application types and each application is a specific branch, if you want to check the solution please go to the corresponding branch
 
 # Spring Projects
+The following list of projects are spring implementations that resolved specific issues.
 
 ## Gateway
+The spring gateway solution will help us to redirect the request that we received from the clients, so in this way we can provide only one single entry point to multiple solutions.
+
+This approach has some advantages:
+* Allow to have one entry point for multiple web services.
+* Gives the possibility to run the load balance logic into this service.
+* Gives the possibility to stablish the security part in one single place.
+
+### [Gateway + Eureka](https://github.com/JJaraM/tech-learning/tree/spring/cloud/gateway/gatewat-eureka-server)
+The following implementation use the spring cloud gateway with a eureka integration to get the cluster members from eureka.
