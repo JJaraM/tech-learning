@@ -20,33 +20,16 @@
 
 
 # Spring
-
 In the following section you will see all spring tutorials
 
-## Spring Webflux
-Example of Webflux applications
-
 ### Spring Webflux Routing Basic
-* [Webflux Basic Application with Routing Function](https://github.com/JJaraM/tech-learning/tree/spring/webflux/webflux-basic-ws): Application that use spring webflux and the Router Function. [Live Demo](https://jjara-webflux-1.herokuapp.com/)
-
-## Spring Cloud
-Example of application using Spring Cloud
-
-#### Configuration Server
+* [Webflux Basic Application with Routing Function](https://github.com/JJaraM/tech-learning/tree/spring/webflux/webflux-basic-ws)
 
 #### Configuration Server File System
-* [Configuration Server FileSystem](https://github.com/JJaraM/tech-learning/tree/prod/configuration-server-filesystem): Application that uses 
-the configuration server to read the files from the file system.
-
-### Gateway
-
-#### Zuul
+[Configuration Server FileSystem](https://github.com/JJaraM/tech-learning/tree/prod/configuration-server-filesystem)
 
 ##### Zuul Basic Routing Path
 [Documentation](https://github.com/JJaraM/tech-learning/tree/spring/cloud/gateway/zuul/zuul-dynamic-routing)
 
 # Gradle
-
-### Gradle Environment Variables
-* [Environment Variables](https://github.com/JJaraM/tech-learning/tree/prod/gradle-system-variable): Spring Boot application that shows how 
-to add environment variables in the bootRun task
+* [Gradle Environment Variables](https://github.com/JJaraM/tech-learning/tree/prod/gradle-system-variable)
