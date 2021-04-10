@@ -11,6 +11,7 @@ http:
 eureka:
   hostname: ${eureka-instance-hostname:localhost:${server.port}}
   client:
+    fetchRegistry: true
     serviceUrl:
       defaultZone: ${eureka-client-service-url:https://jjara-eureka-basic.herokuapp.com/eureka}
   instance:
