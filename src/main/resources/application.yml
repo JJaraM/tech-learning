@@ -21,7 +21,7 @@ eureka:
     homePageUrl: ${http.protocol}://${eureka.hostname}/
     non-secure-port: 80
     secure-port: 443
-
+    non-secure-port-enabled: true
 
 management:
   endpoints:
