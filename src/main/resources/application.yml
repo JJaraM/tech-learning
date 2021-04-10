@@ -9,6 +9,8 @@ http:
   protocol: ${http-protocol:https}
 
 eureka:
+  hostname: ${eureka-instance-hostname:localhost:${server.port}}
+
   instance:
     hostname: ${eureka-instance-hostname:localhost:${server.port}}
     instanceId: ${spring.application.name}:${eureka.hostname}
