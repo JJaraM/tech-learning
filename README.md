@@ -43,6 +43,7 @@ the configuration server to read the files from the file system.
 #### Zuul
 
 ##### Zuul Basic Routing Path
+[Documentation](https://github.com/JJaraM/tech-learning/tree/spring/cloud/gateway/zuul/zuul-dynamic-routing)
 
 # Gradle
 
