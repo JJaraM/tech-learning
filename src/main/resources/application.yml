@@ -6,7 +6,8 @@ eureka:
     serviceUrl:
       defaultZone: ${eureka-client-service-url:https://jjara-eureka-basic.herokuapp.com/eureka}
   instance:
-    preferIpAddress: true
+    #preferIpAddress: true
+    hostname: ${eureka-instance-hostname:localhost}
 
 instance:
   id: ${instance-id:local}
