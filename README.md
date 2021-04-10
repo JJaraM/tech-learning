@@ -33,8 +33,16 @@ Example of Webflux applications
 Example of application using Spring Cloud
 
 #### Configuration Server
+
+#### Configuration Server File System
 * [Configuration Server FileSystem](https://github.com/JJaraM/tech-learning/tree/prod/configuration-server-filesystem): Application that uses 
 the configuration server to read the files from the file system.
+
+### Gateway
+
+#### Zuul
+
+##### Zuul Basic Routing Path
 
 # Gradle
 
