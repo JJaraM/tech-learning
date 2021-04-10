@@ -31,3 +31,4 @@ live demo you are going to see some entries on the application, these applicatio
 are using now the client.
 
 # Result
+![Initial Result](/docs/initial-result.png)
