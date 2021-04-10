@@ -21,10 +21,10 @@
 # Spring
 In the following section you will see all spring tutorials
 
-### Spring Webflux Routing Basic
+# Webflux Routing Basic
 [Webflux Basic Application with Routing Function](https://github.com/JJaraM/tech-learning/tree/spring/webflux/webflux-basic-ws)
 
-#### Configuration Server File System
+# Configuration Server File System
 [Configuration Server Native FileSystem](https://github.com/JJaraM/tech-learning/tree/spring/configuration-server/configuration-server-filesystem)
 
 # Gateway
