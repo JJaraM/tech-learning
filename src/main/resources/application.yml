@@ -3,10 +3,12 @@ spring:
     name: webflux-eureka-client
 eureka:
   client:
+    registerWithEureka: false
+    fetchRegistry: false
     serviceUrl:
       defaultZone: ${eureka-client-service-url:https://jjara-eureka-basic.herokuapp.com/eureka}
   instance:
-    preferIpAddress: true
+    hostname: ${eureka-instance-hostname:localhost}
 
 instance:
   id: ${instance-id:local}
