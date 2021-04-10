@@ -17,12 +17,15 @@
 </p>
 
 # Table of Contents
-1. [Example](#example)
-2. [Example2](#example2)
-3. [Third Example](#third-example)
-4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
+1. [Getting Started](#getting-started)
+2. [Spring Projects](#spring-projects)
+    1. [Gateway](#gateway)
+4. [Third Example](#third-example)
+5. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
 
 # Getting Started
 The following repository shows multiple application types and each application is a specific branch, if you want to check the solution please go to the corresponding branch
 
-#
+# Spring Projects
+
+## Gateway
