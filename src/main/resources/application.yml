@@ -1,13 +1,22 @@
 spring:
   application:
     name: webflux-eureka-client
+
+server:
+  port: ${server-port:8080}
+
+http:
+  protocol: ${http-protocol:https}
+
 eureka:
+  hostname: ${eureka-instance-hostname:localhost}:${server.port}
   client:
     serviceUrl:
       defaultZone: ${eureka-client-service-url:https://jjara-eureka-basic.herokuapp.com/eureka}
   instance:
-    #preferIpAddress: true
-    hostname: ${eureka-instance-hostname:localhost}
+    statusPageUrl: ${http.protocol}://${eureka.hostname}/info
+    healthCheckUrl: ${http.protocol}://${eureka.hostname}/health
+    homePageUrl: ${http.protocol}://${eureka.hostname}/
 
 management:
   endpoints:
