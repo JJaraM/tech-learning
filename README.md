@@ -1,5 +1,3 @@
-# 
-
 <p align="center">
     <a href="https://jonathanjaramorales.herokuapp.com">
         <img src="https://github.com/JJaraM/blog-microservice-ui/blob/master/src/main/resources/public/logo-210x.png" height="210">
