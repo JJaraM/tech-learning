@@ -27,8 +27,7 @@ In the following section you will see all spring tutorials
 Example of Webflux applications
 
 ### Spring Webflux Routing Basic
-* [Configuration Server FileSystem](https://github.com/JJaraM/tech-learning/tree/spring/webflux/webflux-basic-ws): Application that use spring webflux and the Router Function.
-* [Live Demo](https://jjara-webflux-1.herokuapp.com/)
+* [Configuration Server FileSystem](https://github.com/JJaraM/tech-learning/tree/spring/webflux/webflux-basic-ws): Application that use spring webflux and the Router Function. [Live Demo](https://jjara-webflux-1.herokuapp.com/)
 
 ## Spring Cloud
 Example of application using Spring Cloud
