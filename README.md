@@ -17,10 +17,10 @@
 </p>
 
 # Table of Contents
-1. [Introduction](#introduction)
-2. [Some paragraph](#paragraph1)
-    1. [Sub paragraph](#subparagraph1)
-3. [Another paragraph](#paragraph2)
+1. [Example](#example)
+2. [Example2](#example2)
+3. [Third Example](#third-example)
+4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
 
 # Getting Started
 The following repository shows multiple application types and each application is a specific branch, if you want to check the solution please go to the corresponding branch
