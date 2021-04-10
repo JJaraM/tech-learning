@@ -9,16 +9,19 @@ http:
   protocol: ${http-protocol:https}
 
 eureka:
-  #hostname: ${eureka-instance-hostname:localhost:${server.port}}
+  hostname: ${eureka-instance-hostname:localhost:${server.port}}
   client:
-    #fetchRegistry: true
+    fetchRegistry: true
     serviceUrl:
       defaultZone: ${eureka-client-service-url:https://jjara-eureka-basic.herokuapp.com/eureka}
-  #instance:
-  #  instanceId: ${spring.application.name}:${eureka.hostname}
-  #  statusPageUrl: ${http.protocol}://${eureka.hostname}/actuator/info
-  #  healthCheckUrl: ${http.protocol}://${eureka.hostname}/actuator/health
-  #  homePageUrl: ${http.protocol}://${eureka.hostname}/
+  instance:
+    instanceId: ${spring.application.name}:${eureka.hostname}
+    statusPageUrl: ${http.protocol}://${eureka.hostname}/actuator/info
+    healthCheckUrl: ${http.protocol}://${eureka.hostname}/actuator/health
+    homePageUrl: ${http.protocol}://${eureka.hostname}/
+    non-secure-port: 80
+    secure-port: 443
+
 
 management:
   endpoints:
