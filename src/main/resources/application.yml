@@ -1,0 +1,8 @@
+zuul:
+  routes:
+    post:
+      path: /post/**
+      url: https://blog-microservice-post.herokuapp.com/actuator/health
+    tags:
+      path: /tag/**
+      url: https://blog-microservice-tag.herokuapp.com/actuator/health
