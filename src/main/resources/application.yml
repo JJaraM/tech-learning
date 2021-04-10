@@ -10,9 +10,17 @@ http:
 
 eureka:
   instance:
-    #hostname: ${DOMAIN_NAME}
+    hostname: ${eureka-instance-hostname:localhost:${server.port}}
+    instanceId: ${spring.application.name}:${eureka.hostname}
+    statusPageUrl: ${http.protocol}://${eureka.hostname}/actuator/info
+    healthCheckUrl: ${http.protocol}://${eureka.hostname}/actuator/health
+    homePageUrl: ${http.protocol}://${eureka.hostname}/
     lease-renewal-interval-in-seconds: 5
     lease-expiration-duration-in-seconds: 10
+    non-secure-port: 80
+    secure-port: 443
+    non-secure-port-enabled: true
+    
   client:
     fetch-registry: true
     register-with-eureka: true
