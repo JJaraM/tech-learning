@@ -18,6 +18,6 @@ public class IndexRouter {
 
     @Bean
     public RouterFunction<ServerResponse> htmlRouter() {
-        return route(GET("/"), request -> ok().contentType(MediaType.TEXT_HTML).bodyValue("Instance Id " + instanceId));
+        return route(GET("/message"), request -> ok().contentType(MediaType.TEXT_HTML).bodyValue("Instance Id " + instanceId));
     }
 }
