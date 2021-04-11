@@ -6,7 +6,7 @@ plugins {
 
 group = 'com.example'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '1.8'
+sourceCompatibility = '11'
 
 repositories {
     mavenCentral()
@@ -34,4 +34,16 @@ dependencyManagement {
 
 test {
     useJUnitPlatform()
+}
+
+bootRun {
+    println "-- bootRun"
+
+    def activeProfile = System.getProperty("spring.profiles.active", "")
+
+    if (activeProfile.isEmpty()) {
+        systemProperty "spring.profiles.active", "local"
+        systemProperty 'eureka-client-serviceUrl-defaultZone', 'https://jjara-eureka-basic.herokuapp.com/eureka'
+    }
+
 }

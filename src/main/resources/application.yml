@@ -19,7 +19,7 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: ${eureka-client-serviceUrl-defaultZone:https://jjara-eureka-basic.herokuapp.com/eureka}
+      defaultZone: ${eureka-client-serviceUrl-defaultZone}
 
 management:
   endpoints:

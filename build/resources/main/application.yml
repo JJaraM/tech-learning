@@ -1,0 +1,33 @@
+server:
+  port: ${server-port:8762}
+
+spring:
+  application:
+    name: gateway-eureka-lb
+  cloud:
+    discovery:
+      enabled: true
+    gateway:
+      routes:
+        - id: webflux-eureka-client
+          uri: lb://webflux-eureka-client
+          predicates:
+            - Path=/**
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: ${eureka-client-serviceUrl-defaultZone}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    routes:
+      enabled: true
+    filters:
+      enabled: true
