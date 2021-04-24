@@ -1,0 +1,22 @@
+com/jjara/gateway/CustomAuthenticationProvider.java
+ com.jjara.gateway.CustomAuthenticationProvider
+com/jjara/gateway/BasicPreAuthenticationPreFilter.java
+ com.jjara.gateway.BasicPreAuthenticationPreFilter
+com/jjara/gateway/DefaultUserSecurity.java
+ com.jjara.gateway.DefaultUserSecurity
+com/jjara/gateway/AuthenticationI.java
+ com.jjara.gateway.AuthenticationI
+com/jjara/gateway/UserDetailsServiceI.java
+ com.jjara.gateway.UserDetailsServiceI
+com/jjara/gateway/DiscoveryHandler.java
+ com.jjara.gateway.DiscoveryHandler
+com/jjara/gateway/DigiGlobalFilter.java
+ com.jjara.gateway.DigiGlobalFilter
+com/jjara/gateway/CustomFilter.java
+ com.jjara.gateway.CustomFilter
+com/jjara/gateway/AuthResolverController.java
+ com.jjara.gateway.AuthResolverController
+com/jjara/gateway/Application.java
+ com.jjara.gateway.Application
+com/jjara/gateway/CustomWebSecurityConfig.java
+ com.jjara.gateway.CustomWebSecurityConfig
