@@ -6,7 +6,7 @@
 
 <p align="center">
     <h2 align="center">
-        <a href="https://jonathanjaramorales.herokuapp.com/post/255">Spring Cloud Gateway Service</a>
+        <a href="https://jonathanjaramorales.herokuapp.com/post/255">Spring Cloud Gateway + Eureka</a>
     </h2>
     <p align="center">
         <a href="https://jonathanjaramorales.herokuapp.com/category/184"><img src="https://img.shields.io/badge/-gradle-fd6d75.svg"/></a>
